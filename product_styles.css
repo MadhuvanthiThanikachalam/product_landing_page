@@ -1,0 +1,77 @@
+body {
+    color: black;
+    background: white;
+    position: absolute;
+}
+
+.first a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    background-color: white;
+    font-size: 14px;
+    white-space: 200px;
+}
+
+.right-top {
+    float: right;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+li a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    background-image: url("Nav-Stores-SleepShop.jpg");
+    background-color: #30373b;
+    text-align center;
+    padding-left: 150px;
+    margin-left: 10px;
+    margin-top: 70px;
+    height: 350px;
+    width: 1350px;
+}
+
+img {
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: grey;
+}
